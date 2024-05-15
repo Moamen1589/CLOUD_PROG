@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('baker-library-harvard-university_OPxWuDn.max-2880x1800.jpg');
+    margin: 0;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-bottom: 20px; 
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #28f300;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+
+table {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px; 
+}
+
+
+button {
+    background-color: #21ff1e;
+    color: white;
+    padding: 20px 40px;
+    font-size: 20px; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#mm {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+p{
+
+font-size: large;
+
+}
